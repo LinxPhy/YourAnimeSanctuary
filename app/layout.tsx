@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import './styles/globals.css'
+import { Header } from "./components/header";
+import { Navigation } from "./components/navigation";
 
 export const metadata: Metadata = {
   title: "Anime to watch",
@@ -13,7 +15,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Navigation />
+        <div>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

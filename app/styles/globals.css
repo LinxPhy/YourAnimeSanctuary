@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Paaji 2', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+input {
+    font-family: 'Baloo Paaji 2', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+a {
+    /* color: black; */
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+header {
+    background-color: black;
+    padding: 20px
+}
+
+header a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+.header-middle{
+    font-family: 'Bungee', cursive;
+}
+
+nav{
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+nav ul li a {    
+    color: white;
+}
+
+nav ul li {    
+    padding: 10px 6px;
+    border-bottom: 4px solid black;
+}
+
+nav ul li:hover{
+    border-bottom: 4px solid red;
+    cursor: pointer;
+    font-weight: bold;
+}
