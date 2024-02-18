@@ -44,6 +44,11 @@ button {
     cursor: pointer;
 }
 
+.title-section{
+    padding: 20px 0px;
+    text-align: center;
+}
+
 
 .container{
     max-width: 1100px;
