@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import './styles/pages.css'
 import './styles/globals.css'
 import { Header } from "./components/header";
 import { Navigation } from "./components/navigation";
+import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Anime to watch",
@@ -18,9 +20,10 @@ export default function RootLayout({
       <body>
         <Header />
         <Navigation />
-        <div>
+        <div className="container">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

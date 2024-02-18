@@ -28,6 +28,11 @@ input {
     font-weight: 500;
 }
 
+h1{
+    color: black;
+    font-size: 2.4rem;
+}
+
 a {
     /* color: black; */
     font-size: 1rem;
@@ -38,6 +43,19 @@ a,
 button {
     cursor: pointer;
 }
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+section{
+    padding: 40px 0px;
+}
+
 
 header {
     background-color: black;
@@ -87,4 +105,55 @@ nav ul li:hover{
     border-bottom: 4px solid red;
     cursor: pointer;
     font-weight: bold;
+}
+
+.section-header{
+    width: 100%;
+    margin-bottom: 40px;
+    
+}
+
+.section-header h2{
+    padding: 20px 0px 20px 30px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+
+footer{
+    background-color: black;
+    padding: 40px;
+    color: white;
+}
+
+footer span{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-main ul{
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+.footer-main ul li a{
+    color: white;
+}
+
+.footer-main ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-main span{
+    margin-bottom: 50px;
+}
+
+.footer-message{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
 }
