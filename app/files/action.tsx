@@ -11,7 +11,7 @@ const Action = [
         gif: 'code_geass.gif',
         cruncyroll: 'https://animepahe.com/anime/b3141a5b-be42-b47b-6d02-c94a5c1ac806',
         youtube: 'https://www.youtube.com/watch?v=v-AGjx0N24U',
-        description: "Code Geass is a thrilling mecha anime that follows Lelouch, a young prince who uses his intelligence and strategic prowess to lead a rebellion against his father's tyrannical empire. With complex characters, intense action, and a gripping storyline, this anime is a must-watch for anyone who enjoys political intrigue, mecha battles, and psychological drama.",
+        description: "Code Geass is an essential watch for anime aficionados. It chronicles the journey of a prince harnessing his intellect to defy his father's empire. The series introduces a unique power, the Geass, enabling the protagonist to issue a single command to anyone. With its blend of mecha battles, romance, and psychological intrigue, this anime stands as a timeless classic, earning our unwavering acclaim as one of the greatest of its era and beyond.",
         url: 'https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch',
         image_test: './images/AI.jpg'
     },
@@ -27,7 +27,7 @@ const Action = [
         gif: 'aot.gif',
         cruncyroll: 'https://www.crunchyroll.com/series/GR751KNZY/attack-on-titan',
         youtube: 'https://www.youtube.com/watch?v=MGRm4IzK1SQ',
-        description: 'Attack on Titan is a groundbreaking anime that takes place in a world where humanity lives behind massive walls to protect themselves from man-eating giants known as Titans. With its dark and brutal storytelling, breathtaking animation, and memorable characters, this anime is a must-watch for anyone who enjoys epic action, intense drama, and unforgettable twists and turns.',
+        description: "Don't judge Attack on Titan solely by its title or trailer; while it may appear to follow the conventional trope of a hero battling titans to save civilization, it's far from cliché. This anime delves deep into emotions, politics, and features unforgettable characters and experiences. Prepare yourself for an emotional rollercoaster filled with intense drama, numerous twists, and turns in every episode. Watch Attack on Titan if you crave a gripping and multifaceted narrative that defies expectations.",
         url: 'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
     },
 

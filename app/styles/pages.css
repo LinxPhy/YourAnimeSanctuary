@@ -152,6 +152,7 @@
 
 .anime-content-navigation ul{
     list-style-type: none;
+    /* position: sticky; */
 }
 
 .anime-content-navigation ul li:hover{

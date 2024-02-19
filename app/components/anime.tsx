@@ -39,8 +39,9 @@ export default function Anime(props: any) {
 
 
                             <div className="anime-description">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, officia sapiente? Voluptas possimus impedit error molestiae, libero architecto inventore temporibus necessitatibus consequatur fugit iure cupiditate illum sit sint praesentium quas.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure soluta, eos voluptas, qui, expedita id ut porro quis quam exercitationem ipsam natus at architecto. Maiores cumque labore blanditiis amet.</p>
+                                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, officia sapiente? Voluptas possimus impedit error molestiae, libero architecto inventore temporibus necessitatibus consequatur fugit iure cupiditate illum sit sint praesentium quas.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure soluta, eos voluptas, qui, expedita id ut porro quis quam exercitationem ipsam natus at architecto. Maiores cumque labore blanditiis amet.</p> */}
+                                <p>{anime.description}</p>
                             </div>
 
                         </div>
