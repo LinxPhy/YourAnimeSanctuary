@@ -21,15 +21,21 @@ export default function Anime(props: any) {
 
                             <div className="anime-info">
                                 <ul>
-                                    <li>Episodes - #</li>
+                                    <li>Episodes - {anime.episodes}</li>
+                                    <li>Seasons  - {anime.seasons}</li>
                                     <li>Release Date - #</li>
                                     <li>Genre - #</li>
                                 </ul>
                             </div>
 
-                            <div className="anime-image">
+                            {anime.image ?
+                                <div className="anime-imagesection">
+                                    <Image src={anime.image} width={650} height={650} alt="anime-image"></Image>
+                                </div>
+                                :
+                                <div className="anime-image"></div>
+                            }
 
-                            </div>
 
                             <div className="anime-icons">
                                 <Image src={MAL} width={'30'} height={'30'} alt="MAL"></Image>
