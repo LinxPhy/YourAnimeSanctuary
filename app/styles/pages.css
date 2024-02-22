@@ -1,11 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap'); */
 
 
-.hero{
+.hero {
     height: min-content;
     position: relative;
 }
 
-.hero img{
+.hero img {
     max-width: 700px;
     width: 100%;
     height: auto;
@@ -14,13 +15,15 @@
 
 
 
-.hero-description p, .item-description p{ 
-    color: #4a4a4a;;
+.hero-description p,
+.item-description p {
+    color: #4a4a4a;
+    ;
     font-weight: 300;
     line-height: 1.3rem;
 }
 
-.image-cover{
+.image-cover {
     position: absolute;
     background-color: black;
     color: white;
@@ -36,42 +39,42 @@
     font-size: 1.5rem;
 }
 
-.items{
+.items {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.items > div{
+.items>div {
     width: min-content;
     margin-bottom: 20px;
 }
 
-.items img{
+.items img {
     width: 325px;
     height: 300px;
     object-fit: cover;
 }
 
 
-.shyka{
+.shyka {
     display: flex;
     gap: 20px;
 }
 
-.shyka img{
+.shyka img {
     width: 320px;
     height: 300px;
-    object-fit: cover;   
+    object-fit: cover;
 }
 
-.extra-content .content-description{
+.extra-content .content-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.extra-content .content-description p{
+.extra-content .content-description p {
     color: #4a4a4a;
     font-weight: 300;
     line-height: 1.3rem;
@@ -80,36 +83,46 @@
 
 /*  */
 
-.anime{
+.anime {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.anime-content{
+.anime-content {
     display: flex;
 }
 
-.anime-content p{
+.anime-content p {
     color: #4a4a4a;
     font-weight: 300;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
+    font-size: 1.3rem;
 }
 
-.anime-content-main{
+.anime-description p {
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+    white-space: pre-line;
+    color: rgb(66, 66, 66);
+}
+
+.anime-content-main {
     display: flex;
     flex-direction: column;
     gap: 50px;
     max-width: 700px;
 }
 
-.anime-header{
+.anime-header {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.anime-header span{
+.anime-header span {
     padding: 20px 30px;
     background-color: rgb(253, 134, 134);
     /* background-color: black; */
@@ -118,54 +131,54 @@
     font-size: 1.2rem;
 }
 
-.anime-icons{
+.anime-icons {
     display: flex;
     gap: 10px;
 }
 
-.anime-icons img{
+.anime-icons img {
     object-fit: contain;
 }
 
-.anime-imagesection img{
+.anime-imagesection img {
     width: 650px;
     height: 400px;
     object-fit: cover;
 }
 
-.anime-image{
+.anime-image {
     width: 650px;
     height: 400px;
     background-color: rgb(214, 214, 214);
 }
 
-.anime-info ul{
+.anime-info ul {
     list-style-type: none;
 }
 
-.page-image-section{
+.page-image-section {
     width: 100%;
     height: 500px;
     background-color: rgb(214, 214, 214);
 }
 
 
-.anime-content-navigation > div{
+.anime-content-navigation>div {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.anime-content-navigation ul{
+.anime-content-navigation ul {
     list-style-type: none;
     /* position: sticky; */
 }
 
-.anime-content-navigation ul li:hover{
+.anime-content-navigation ul li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-.anime-content-navigation .section-header{
+.anime-content-navigation .section-header {
     margin-top: 40px;
 }

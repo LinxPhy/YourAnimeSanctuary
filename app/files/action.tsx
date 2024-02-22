@@ -81,7 +81,7 @@ const Action = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G6J0G49DR/tower-of-god',
         youtube: 'https://www.youtube.com/watch?v=RNyClma6awo',
-        description: "",
+        description: "An exhilarating and captivating anime that will take you on an epic journey filled with breathtaking action, complex characters, and mind-bending twists. From the moment you step into the mysterious and dangerous Tower, you'll be gripped by its gripping storyline and entranced by its stunning animation.\n\n The main protagonist, Bam, will steal your heart with his unwavering determination and resilience as he navigates the treacherous trials and challenges of the Tower to reunite with his beloved Rachel.\n\n Along the way, he forges unbreakable bonds with unforgettable allies like the fierce and loyal Khun and the enigmatic Princess Yuri. As the secrets of the Tower slowly unravel and alliances are tested, you'll find yourself on the edge of your seat, eagerly anticipating each new revelation and eagerly rooting for Bam's success. Tower of God is a masterful blend of action, intrigue, and heart, sure to leave you breathless and craving for more.",
         url: 'https://myanimelist.net/anime/40221/Kami_no_Tou',
     },
 
@@ -95,7 +95,7 @@ const Action = [
         type: 'TV',
         funanimation: 'https://www.funimation.com/shows/seraph-of-the-end-vampire-reign',
         youtube: 'https://www.youtube.com/watch?v=NtzDAmRhD9s',
-        description: "",
+        description: "Oh, my goodness, Owari no Seraph is an absolute rollercoaster of emotions and excitement! From the very first episode, I was drawn into this post-apocalyptic world where humans are enslaved by vampires, and the only hope for humanity lies in the hands of a group of young, determined fighters.\n\n The characters are so well-developed, each with their own struggles and motivations that tug at your heartstrings. Yuuichirou's fiery determination to avenge his fallen comrades and protect his newfound family is both inspiring and heart-wrenching.\n\n The action sequences are pulse-pounding and intense, keeping me on the edge of my seat throughout the entire series.But it's not just about the battles and bloodshed; there are also moments of friendship, loyalty, and sacrifice that will leave you in tears.\n\n The plot twists and turns had me gasping in shock and anticipation, and the stunning animation and soundtrack only added to the overall exhilarating experience. Overall, Owari no Seraph is a masterpiece that combines thrilling action, deep emotions, and a gripping storyline that will keep you hooked from start to finish. Trust me, you do not want to miss out on this anime!",
         url: 'https://myanimelist.net/anime/26243/Owari_no_Seraph',
     },
 
@@ -109,7 +109,7 @@ const Action = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GZJH3DPM1/fena-pirate-princess',
         youtube: 'https://www.youtube.com/watch?v=ci_Vauuz7AQ',
-        description: "",
+        description: "Arr matey! Let me tell you about the swashbuckling adventure that is Fena: Pirate Princess!\n\n This anime is a treasure trove of excitement, with its gripping storyline, stunning animation, and unforgettable characters that will steal your heart faster than a pirate raid at sea! From the moment Fena sets sail on her quest to find her destiny, I was hooked!\n\n The thrilling action scenes had me on the edge of my seat, the emotional moments tugged at my heartstrings, and the strong bonds between Fena and her loyal crew left me feeling all warm and fuzzy inside. Each episode was a voyage of discovery, filled with mystery, danger, and moments of pure joy.\n\n The ending was a bittersweet symphony that left me craving for more adventures on the high seas. It is truly a gem of an anime that shines brighter than any treasure in the seven seas! Aye, me hearties, this show is truly amazing and deserves all the praise and accolades it receives!",
         url: 'https://myanimelist.net/anime/42544/Kaizoku_Oujo',
     },
 
@@ -123,7 +123,7 @@ const Action = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GKEH2G440/akudama-drive',
         youtube: 'https://www.youtube.com/watch?v=47QY-u0CXMo',
-        description: "",
+        description: "An absolute thrill ride from start to finish, a high-octane blend of action, suspense, and futuristic chaos that will leave you on the edge of your seat craving for more. With its stunning visuals, dynamic characters, and mind-bending plot twists, this anime pushes the boundaries of creativity and keeps viewers utterly captivated.\n\n From the adrenaline-pumping fight scenes to the intricate world-building, every moment is a masterpiece that leaves a lasting impact. The intensity and raw emotion woven into every episode will make your heart race and your jaw drop in awe.\n\nAkudama Drive is a rollercoaster of emotions that will have you rooting for the anti-heroes, questioning your perspective on morality, and ultimately, leaving you in sheer amazement at its brilliance. It's a wild, exhilarating journey that you won't soon forget.",
         url: 'https://myanimelist.net/anime/41433/Akudama_Drive',
     },
 
@@ -137,7 +137,7 @@ const Action = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.co.uk/Dororo/dp/B07MBRLTPK',
         youtube: 'https://www.youtube.com/watch?v=YgHPBwLu0BA',
-        description: "",
+        description: "The story follows the journey of Hyakkimaru, a young swordsman on a quest to reclaim his stolen body parts from demons, with the help of Dororo, a plucky young thief. The dynamic between the two protagonists is heartwarming and their character development throughout the series is beautifully crafted. The animation is breathtaking, with fluid fight scenes and detailed landscapes that truly immerse you in the world of samurais and supernatural beings.\n\nEach episode is filled with intense emotions, from heart-wrenching tragedies to heartwarming triumphs, keeping you on the edge of your seat until the very end. But what truly sets Dororo apart is its exploration of themes such as redemption, sacrifice, and the true meaning of humanity. It forces you to question your morals and beliefs, leaving a lasting impact long after the final episode. Dororo is not just an anime, it's a rollercoaster of emotions that will stay with you forever.",
         url: 'https://myanimelist.net/anime/37520/Dororo',
     },
 
@@ -151,7 +151,7 @@ const Action = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GEXH3WKK0/vinland-saga',
         youtube: 'https://www.youtube.com/watch?v=f8JrZ7Q_p-8',
-        description: "",
+        description: "I know I mentioned 10 anime above but I abviously couldn't skip on this masterpiece...\n\nVinland Saga is an epic tale of revenge, redemption, and the pursuit of true freedom that will tug at your heartstrings and leave you breathless. From the moment the stunning animation begins, you are transported into a world filled with intense battles, intricate political intrigue, and deep emotional connections.\n\nThe characters are complex and multifaceted, each with their own struggles and motivations that will resonate with you on a profound level. But beyond the exhilarating fight scenes and gripping plot twists, Vinland Saga is ultimately a story about the resilience of the human spirit and the power of forgiveness. It will make you laugh, cry, and cheer for the characters as they navigate the unforgiving world of medieval Scandinavia.",
         url: 'https://myanimelist.net/anime/37521/Vinland_Saga',
     },
 
