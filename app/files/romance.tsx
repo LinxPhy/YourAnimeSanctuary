@@ -25,7 +25,7 @@ const Romance = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G6P8PXJW6/toradora',
         youtube: 'https://www.youtube.com/watch?v=ya570uUgQNc',
-        description: "Toradora is an absolutely heartwarming and charming anime that completely stole my heart. From the lovable and complex characters to the bittersweet moments of love and friendship, this show is a rollercoaster of emotions that will have you laughing, crying, and cheering for the characters every step of the way. The romantic tension between the fiery Taiga and the seemingly cold-hearted Ryuuji is beautifully portrayed, keeping you on the edge of your seat until the very end. The character development is simply phenomenal, making you feel deeply connected to each of them. Toradora is a true masterpiece that delves into the complexities of relationships and growing up, leaving a lasting impact on anyone who watches it. Trust me, you don't want to miss out on this unforgettable journey of love and self-discovery!",
+        description: "Toradora is an absolutely heartwarming and charming anime that completely stole my heart. From the lovable and complex characters to the bittersweet moments of love and friendship, this show is a rollercoaster of emotions that will have you laughing, crying, and cheering for the characters every step of the way.\n\n The romantic tension between the fiery Taiga and the seemingly cold-hearted Ryuuji is beautifully portrayed, keeping you on the edge of your seat until the very end. The character development is simply phenomenal, making you feel deeply connected to each of them. Toradora is a true masterpiece that delves into the complexities of relationships and growing up, leaving a lasting impact on anyone who watches it. Trust me, you don't want to miss out on this unforgettable journey of love and self-discovery!",
         url: 'https://myanimelist.net/anime/4224/Toradora',
     },
 
@@ -53,7 +53,7 @@ const Romance = [
         type: 'TV',
         cruncyroll: 'https://www.hidive.com/tv/real-girl',
         youtube: 'https://www.youtube.com/watch?v=4b1Lpm_px04',
-        description: "rom the sweet and wholesome romance between the main characters to the beautiful character development and emotional moments, this anime truly captures the essence of young love in all its awkwardness and beauty. The animation is stunning, bringing the characters to life in a way that makes you feel like you're right there with them on their journey. Watching their love story unfold is a rollercoaster of emotions, from heartwarming moments to heart-wrenching ones that will have you reaching for the tissues. 3D Kanojo is a must-watch for anyone who loves a good romance filled with passion, love, and lots of lovely-goowey feelings",
+        description: "From the sweet and wholesome romance between the main characters to the beautiful character development and emotional moments, this anime truly captures the essence of young love in all its awkwardness and beauty. The animation is stunning, bringing the characters to life in a way that makes you feel like you're right there with them on their journey. Watching their love story unfold is a rollercoaster of emotions, from heartwarming moments to heart-wrenching ones that will have you reaching for the tissues. 3D Kanojo is a must-watch for anyone who loves a good romance filled with passion, love, and lots of lovely-goowey feelings",
         url: 'https://myanimelist.net/anime/36793/3D_Kanojo__Real_Girl',
     },
 
@@ -83,6 +83,63 @@ const Romance = [
         youtube: 'https://www.youtube.com/watch?v=vk6mg74R5Ek',
         description: 'This beautiful series tells the heartwarming story of Tsukasa and Isla, two characters whose deepening connection despite the heart-wrenching circumstances will tug at your heartstrings like never before. The poignant exploration of love, loss, and the fleeting nature of time will leave you reflecting on the precious moments in life and cherishing every single one. With its stunning animation, touching soundtrack, and unforgettable characters, Plastic Memories s a must-watch that will make you laugh, cry, and ultimately feel a warmth in your soul that lingers long after the final episode.',
         url: 'https://myanimelist.net/anime/27775/Plastic_Memories',
+    },
+
+
+    {
+        id: 7,
+        title: 'Kokoro Connect',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fkokoro_connect.jpg?alt=media&token=ef23ae59-a955-4095-b0d5-59432d13c99b',
+        genre: ['Drama', 'Romance', 'Supernatural'],
+        episodes: 13,
+        seasons: 1,
+        type: 'TV',
+        hidive: 'https://www.hidive.com/tv/kokoro-connect',
+        youtube: 'https://www.youtube.com/watch?v=Mp4jB41pTus',
+        description: "This is one of my favourite anime of all time - Truly unbelievable, absolutely underrated and an hidden gem. \n\nIt is an absolutely breathtaking anime that will grab hold of your heart and never let go. It delves deep into the complexities of human emotions and relationships, taking you on a rollercoaster ride of ups and downs that will leave you breathless. \n\nThe unique concept of body swapping and supernatural phenomena adds a thrilling twist that sets it apart from any other anime. The character development is top-notch, making you feel deeply connected to each and every member of the cast. The raw emotions, the intense drama, and the profound philosophical themes explored throughout the series will leave you pondering long after it's over. Kokoro Connect is a masterpiece that transcends the boundaries of traditional anime, leaving a lasting impact on anyone who watches it.",
+        url: 'https://myanimelist.net/anime/11887/Kokoro_Connect',
+    },
+
+    {
+        id: 8,
+        title: 'Just Because',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fjust_because.jpg?alt=media&token=688d8067-7f0b-44f5-9e9a-788952c57b05',
+        genre: ['Drama', 'Romance'],
+        episodes: 12,
+        seasons: 2,
+        type: 'TV',
+        amazonPrime: 'https://www.amazon.com/Just-Because-Season-1/dp/B0765NLV8L',
+        youtube: 'https://www.youtube.com/watch?v=PMi7yzfW3TU',
+        description: "Just Because is a heartwarming and poignant anime that captures the bittersweet essence of youth and love. From the beautifully emotional soundtrack to the realistic and relatable characters, every moment of this series touched my heart in ways I never expected.\n\n The delicate balance between hope and heartbreak, coupled with the exquisite animation and attention to detail, made it an unforgettable and soul-stirring experience. The genuine emotions, the subtle gestures, the unspoken words - every aspect of Just Because resonated with me on a deep, profound level, leaving me aching with  both joy and sorrow. It's a true gem that blessed my heart and left an indelible mark, reminding me of the beauty and complexity of human connections. ",
+        url: 'https://myanimelist.net/anime/35639/Just_Because?q=just%20because&cat=anime',
+    },
+
+    {
+        id: 9,
+        title: 'Nana',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fnana.jpg?alt=media&token=78bc8795-8d58-4a93-9091-a810a177656b',
+        genre: ['Drama', 'Romance'],
+        episodes: 47,
+        seasons: 1,
+        type: 'TV',
+        hulu: 'https://www.hulu.com/series/nana-36aab705-e0ea-405f-a58d-48a226053c90',
+        youtube: 'https://www.youtube.com/watch?v=Tad-n4Xh3nI',
+        description: "Nana is an emotionally charged rollercoaster of an anime that will grip your heart and refuse to let go. The story of two very different girls, both named Nana, brought together by fate and their shared dreams, is a masterpiece of character development and raw, unfiltered emotion. From the highs of friendship, love, and pursuing your passions, to the gut-wrenching lows of heartbreak, betrayal, and loss, this series will make you laugh, cry, and feel every emotion in between. The music, the art, the storytelling and everything else is utterly captivating and will stay with you long after the final episode. It's a blessing to the soul, a reminder of the beauty and pain of life, and a truly unforgettable experience.",
+        url: 'https://myanimelist.net/anime/877/Nana',
+    },
+
+    {
+        id: 10,
+        title: 'Our love has always been 10 centimeters apart.',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2F10cm.jpg?alt=media&token=244a63f3-375f-4dba-aec9-72b49f1a4083',
+        genre: ['Drama', 'Romance'],
+        episodes: 6,
+        seasons: 1,
+        type: 'TV',
+        crunchyroll: 'https://www.crunchyroll.com/series/GRJQM5M0Y/our-love-has-always-been-10-centimeters-apart',
+        youtube: 'https://www.youtube.com/watch?v=07LkP1eeOPc',
+        description: "Just... 10 cm apart.\n\nWith its beautiful animation, heartfelt storytelling, and relatable characters, this series will make you laugh, cry, and fall in love all over again in just 6 episodes.\n\n The love story between Haruki and Miou is so pure and genuine, it will melt your heart and leave you rooting for their happiness. The way they navigate the ups and downs of their relationship, always staying just 10 centimeters apart, is both frustrating and incredibly endearing. Watching their journey unfold will fill you with a sense of warmth and optimism, reminding you of the beauty and magic of love. This anime is a true blessing for the heart, a gem that will stay with you long after the final episode ends.",
+        url: 'https://myanimelist.net/anime/36220/Itsudatte_Bokura_no_Koi_wa_10_cm_Datta',
     },
 
 ]
