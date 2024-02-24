@@ -14,7 +14,7 @@ export default function Home() {
 
 
       <section className="hero">
-        {/* <Image src={HeroImage} alt='Hero Image'></Image> */}
+        <Image src={HeroImage} alt='Hero Image'></Image>
 
         {/* <div className='image-cover'>
           Top 10 Underrated Anime

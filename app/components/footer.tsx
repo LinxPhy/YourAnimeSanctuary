@@ -27,6 +27,12 @@ export function Footer() {
                 </div>
                 <div>
                     <span>Links</span>
+                    <ul>
+                        <li><Link href={'/underrated'}>MyAnimeList</Link></li>
+                        <li><Link href={'/action'}>AmazonPrimeVideo</Link></li>
+                        <li><Link href={'/mystery'}>Crunchyroll</Link></li>
+                        <li><Link href={'/mystery'}>Hulu</Link></li>
+                    </ul>
                 </div>
             </div>
 
