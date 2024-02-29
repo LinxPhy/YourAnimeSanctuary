@@ -11,7 +11,7 @@ export function Navigation(){
                 <li><Link href={'/romance'}>Romance</Link></li>
                 <li><Link href={'/classics'}>Classics</Link></li>
                 <li><Link href={'/sports'}>Sports</Link></li>
-                <li><Link href={'/slice-of-life'}>Slice of Life</Link></li>
+                <li><Link href={'/slice_of_life'}>Slice of Life</Link></li>
             </ul>
         </nav>
     )

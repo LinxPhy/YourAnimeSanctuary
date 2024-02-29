@@ -2,8 +2,12 @@ import Image from "next/image"
 import MAL from '@/app/icons/MAL.png'
 import Crunchyroll from '@/app/icons/crunchyroll.webp'
 import Youtube from '@/app/icons/youtube.webp'
+import getAnimeNews from "./getAnimeNews"
+import Link from "next/link";
 
-export default function Anime(props: any) {
+export default async function Anime(props: any) {
+
+    const news = await getAnimeNews()
 
     const data = props.data
 
@@ -45,8 +49,6 @@ export default function Anime(props: any) {
 
 
                             <div className="anime-description">
-                                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, officia sapiente? Voluptas possimus impedit error molestiae, libero architecto inventore temporibus necessitatibus consequatur fugit iure cupiditate illum sit sint praesentium quas.</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iure soluta, eos voluptas, qui, expedita id ut porro quis quam exercitationem ipsam natus at architecto. Maiores cumque labore blanditiis amet.</p> */}
                                 <p>{anime.description}</p>
                             </div>
 
@@ -77,6 +79,16 @@ export default function Anime(props: any) {
                     <div className="section-header">
                         <h2>News</h2>
                     </div>
+
+                    <ol>
+                        {news.data.map((item: any, key: number) => {
+                            return (
+                                <Link href={item.forum_url}>
+                                    <li>{item.title}</li>
+                                </Link>
+                            )
+                        })}
+                    </ol>
                 </div>
 
             </div>

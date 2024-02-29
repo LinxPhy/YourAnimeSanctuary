@@ -22,7 +22,7 @@ body {
     overflow-y: scroll;
 }
 
-input {
+input, button {
     font-family: 'Baloo Paaji 2', sans-serif;
     color: black;
     font-size: 1rem;
@@ -162,4 +162,11 @@ footer span{
 .footer-message{
     padding: 20px 0px 0px 0px;
     text-align: center;
+}
+
+
+.placeholder_div{
+    width: 320px;
+    height: 320px;
+    background-color: rgb(235, 235, 235);
 }

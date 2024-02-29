@@ -1,3 +1,4 @@
+import getAnimeNews from "./components/getAnimeNews";
 import Image from 'next/image';
 import HeroImage from './images/hero_image.jpeg'
 import Item1 from './images/emminence_in_shadow.jpg'
@@ -7,8 +8,14 @@ import Item4 from './images/kuroko_no_basket.jpg'
 import Item5 from './images/tonikaku.jpg'
 import Item6 from './images/spy_x_family.jpg'
 import AI from './images/AI.jpg'
+import AnimeNews from "./components/animeNews";
+import LoadImage from "./components/animeNews";
+import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
+  const { data }: any = await getAnimeNews()
+
+
   return (
     <main className="Homepage">
 
@@ -39,49 +46,91 @@ export default function Home() {
         <div className='items'>
 
           <div className='item1'>
-            <Image src={Item1} alt='Image-Image'></Image>
+            <Link href={'/action'}>
+              <Image src={Item1} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Action</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laborum sint dolorem explicabo ipsam, voluptatum velit, rem pariatur beatae ad quidem dignissimos harum doloribus nesciunt! Dicta ipsum pariatur magnam sed?</p>
+              <p>Are you into fast-paced scenes or high-stakes battles? Well look no further</p>
             </div>
           </div>
 
           <div className='item2'>
-            <Image src={Item2} alt='Image-Image'></Image>
+            <Link href={'/mystery'}>
+              <Image src={Item2} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Mystery</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit ullam tempore dignissimos impedit sit ab, ex praesentium voluptate eligendi temporibus incidunt cupiditate numquam deserunt corrupti obcaecati dicta porro cumque iure.</p>
+              <p>Mystery anime is all about resolving dubious questions surrounding a character or environment. What will the truth unveil? </p>
             </div>
           </div>
           <div className='item3'>
+            <Link href={'/classics'}>
             <Image src={Item3} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Classics</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ex magnam sequi molestiae nesciunt alias rerum ipsa sit perspiciatis debitis magni illo architecto, molestias fugiat inventore deserunt harum adipisci beatae!</p>
+              <p>This includes animes hits when you were growing up including hidden gems... Timeless relics that can be enjoyed no matter the era </p>
             </div>
           </div>
           <div className='item4'>
-            <Image src={Item4} alt='Image-Image'></Image>
+            <Link href={'/sports'}>
+              <Image src={Item4} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Sports</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio adipisci, placeat cumque deserunt, a maiores temporibus quos non tempore aspernatur ad, perferendis beatae. Iusto quia voluptatum minima fuga excepturi. Eveniet.</p>
+              <p>Sports anime are all about the heavy focus of struggles and resiliance of a character in their sportive environemnt.</p>
             </div>
           </div>
           <div className='item5'>
-            <Image src={Item5} alt='Image-Image'></Image>
+            <Link href={'/romance'}>
+              <Image src={Item5} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Romance</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam deserunt nisi eligendi, reprehenderit et dolore mollitia excepturi minus, quam voluptatum officiis aspernatur, a ad sunt obcaecati! Nulla sapiente vitae unde.</p>
+              <p>Are you into heartwarming experiences between characters? Warm your heart with Romance</p>
             </div>
           </div>
           <div className='item6'>
-            <Image src={Item6} alt='Image-Image'></Image>
+            <Link href={'/slice_of_life'}>
+              <Image src={Item6} alt='Image-Image'></Image>
+            </Link>
             <div className='item-description'>
               <h3>Slice of Life</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati debitis possimus a! Vero, quam esse aliquid praesentium laboriosam itaque hic earum ad vitae. Rem unde fugiat eveniet exercitationem, ducimus voluptates.</p>
             </div>
           </div>
         </div>
+      </section>
+
+
+
+
+      <section className='homepage-api'>
+        <div className='section-header'>
+          <h2>Anime News</h2>
+        </div>
+
+        <div className="anime-news-area">
+          {data.map((anime: any, key: number) => {
+            return (
+              <article className="article-news" key={key}>
+                <LoadImage data={anime.images.jpg.image_url} />
+                <div className="article-main">
+                  <h3>{anime.title}</h3>
+                  <div className="article-text">
+                    <p>{anime.excerpt}</p>
+                    <Link href={anime.forum_url}>
+                      <button className="buttonStyle1">Visit</button>
+                    </Link>
+                  </div>
+                </div>
+              </article>
+            )
+          })}
+
+        </div>
+
       </section>
 
       <section className='homepage-extra'>
@@ -107,3 +156,5 @@ export default function Home() {
     </main>
   );
 }
+
+
