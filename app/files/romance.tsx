@@ -27,6 +27,7 @@ const Romance = [
         youtube: 'https://www.youtube.com/watch?v=ya570uUgQNc',
         description: "Toradora is an absolutely heartwarming and charming anime that completely stole my heart. From the lovable and complex characters to the bittersweet moments of love and friendship, this show is a rollercoaster of emotions that will have you laughing, crying, and cheering for the characters every step of the way.\n\n The romantic tension between the fiery Taiga and the seemingly cold-hearted Ryuuji is beautifully portrayed, keeping you on the edge of your seat until the very end. The character development is simply phenomenal, making you feel deeply connected to each of them. Toradora is a true masterpiece that delves into the complexities of relationships and growing up, leaving a lasting impact on anyone who watches it. Trust me, you don't want to miss out on this unforgettable journey of love and self-discovery!",
         url: 'https://myanimelist.net/anime/4224/Toradora',
+        gem: 'gem',
     },
 
     {
@@ -136,7 +137,7 @@ const Romance = [
         episodes: 6,
         seasons: 1,
         type: 'TV',
-        crunchyroll: 'https://www.crunchyroll.com/series/GRJQM5M0Y/our-love-has-always-been-10-centimeters-apart',
+        cruncyroll: 'https://www.crunchyroll.com/series/GRJQM5M0Y/our-love-has-always-been-10-centimeters-apart',
         youtube: 'https://www.youtube.com/watch?v=07LkP1eeOPc',
         description: "Just... 10 cm apart.\n\nWith its beautiful animation, heartfelt storytelling, and relatable characters, this series will make you laugh, cry, and fall in love all over again in just 6 episodes.\n\n The love story between Haruki and Miou is so pure and genuine, it will melt your heart and leave you rooting for their happiness. The way they navigate the ups and downs of their relationship, always staying just 10 centimeters apart, is both frustrating and incredibly endearing. Watching their journey unfold will fill you with a sense of warmth and optimism, reminding you of the beauty and magic of love. This anime is a true blessing for the heart, a gem that will stay with you long after the final episode ends.",
         url: 'https://myanimelist.net/anime/36220/Itsudatte_Bokura_no_Koi_wa_10_cm_Datta',

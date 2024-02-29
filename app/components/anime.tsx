@@ -2,6 +2,10 @@ import Image from "next/image"
 import MAL from '@/app/icons/MAL.png'
 import Crunchyroll from '@/app/icons/crunchyroll.webp'
 import Youtube from '@/app/icons/youtube.webp'
+import AmazonPrime from '@/app/icons/amazonPrime.png'
+import Hulu from '@/app/icons/hulu.png'
+import Netflix from '@/app/icons/netflix.png'
+import Hidive from '@/app/icons/hidive.png'
 import getAnimeNews from "./getAnimeNews"
 import Link from "next/link";
 
@@ -18,7 +22,7 @@ export default async function Anime(props: any) {
                 {data.map((anime: any) => {
                     return (
                         <div className="anime" key={anime.id}>
-                            <div className="anime-header">
+                            <div className={`anime-header ${anime.gem} `}>
                                 <span>{anime.id}</span>
                                 <h2>{anime.title}</h2>
                             </div>
@@ -34,7 +38,7 @@ export default async function Anime(props: any) {
 
                             {anime.image ?
                                 <div className="anime-imagesection">
-                                    <Image src={anime.image} width={650} height={650} alt="anime-image"></Image>
+                                    <Image src={anime.image} loading="lazy" width={650} height={650} alt="anime-image"></Image>
                                 </div>
                                 :
                                 <div className="anime-image"></div>
@@ -42,9 +46,23 @@ export default async function Anime(props: any) {
 
 
                             <div className="anime-icons">
-                                <Image src={MAL} width={'30'} height={'30'} alt="MAL"></Image>
-                                <Image src={Crunchyroll} width={'30'} height={'30'} alt="Crunchyroll"></Image>
-                                <Image src={Youtube} width={'30'} height={'30'} alt="Youtube"></Image>
+                                <Link href={anime.url}>
+                                    <Image src={MAL} width={'30'} height={'30'} alt="MAL"></Image>
+                                </Link>
+
+                                
+                                { 
+                                    anime.cruncyroll ?  <Link href={anime.cruncyroll}> <Image src={Crunchyroll} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
+                                    anime.amazonPrime ?  <Link href={anime.amazonPrime}> <Image src={AmazonPrime} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link> :
+                                    anime.netflix ?  <Link href={anime.netflix}> <Image src={Netflix} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
+                                    anime.hulu ?  <Link href={anime.hulu}> <Image src={Hulu} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link> :
+                                    anime.hidive ? <Link href={anime.hidive}> <Image src={Hidive} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
+                                    <></>
+                                }
+
+                                <Link href={anime.youtube}>
+                                    <Image src={Youtube} width={'30'} height={'30'} alt="Youtube"></Image>
+                                </Link>
                             </div>
 
 
@@ -83,7 +101,7 @@ export default async function Anime(props: any) {
                     <ol>
                         {news.data.map((item: any, key: number) => {
                             return (
-                                <Link href={item.forum_url}>
+                                <Link key={key} href={item.forum_url}>
                                     <li>{item.title}</li>
                                 </Link>
                             )

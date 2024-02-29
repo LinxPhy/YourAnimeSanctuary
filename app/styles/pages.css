@@ -81,6 +81,11 @@
 }
 
 
+.extra-content button{
+    margin-top: 10px;
+    float: right;
+}
+
 /*  */
 
 .anime {
@@ -92,7 +97,7 @@
 .anime-content {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    gap: 40px;
 }
 
 .anime-content p {
@@ -131,6 +136,10 @@
     color: white;
     font-family: 'Bungee', cursive;
     font-size: 1.2rem;
+}
+
+.gem span{
+    background-color: #92b8f0;
 }
 
 .anime-icons {

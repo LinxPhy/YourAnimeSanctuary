@@ -12,6 +12,7 @@ const Action = [
         youtube: 'https://www.youtube.com/watch?v=v-AGjx0N24U',
         description: "Code Geass is an essential watch for anime aficionados. It chronicles the journey of a prince harnessing his intellect to defy his father's empire. The series introduces a unique power, the Geass, enabling the protagonist to issue a single command to anyone. With its blend of mecha battles, romance, and psychological intrigue, this anime stands as a timeless classic, earning our unwavering acclaim as one of the greatest of its era and beyond.",
         url: 'https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch',
+        gem: 'gem',
     },
 
     {

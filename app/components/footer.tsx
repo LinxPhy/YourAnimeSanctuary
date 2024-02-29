@@ -28,10 +28,12 @@ export function Footer() {
                 <div>
                     <span>Links</span>
                     <ul>
-                        <li><Link href={'/underrated'}>MyAnimeList</Link></li>
-                        <li><Link href={'/action'}>AmazonPrimeVideo</Link></li>
-                        <li><Link href={'/mystery'}>Crunchyroll</Link></li>
-                        <li><Link href={'/mystery'}>Hulu</Link></li>
+                        <li><Link href={'https://myanimelist.net/anime.php'}>MyAnimeList</Link></li>
+                        <li><Link href={'https://www.amazon.co.uk/gp/video/storefront'}>AmazonPrimeVideo</Link></li>
+                        <li><Link href={'https://www.crunchyroll.com/'}>Crunchyroll</Link></li>
+                        <li><Link href={'https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F'}>Hulu</Link></li>
+                        <li><Link href={'https://www.netflix.com/gb/'}>Netflix</Link></li>
+                        <li><Link href={'https://www.hidive.com/dashboard'}>HIDive</Link></li>
                     </ul>
                 </div>
             </div>

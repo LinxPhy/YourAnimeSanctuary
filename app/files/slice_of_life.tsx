@@ -139,6 +139,7 @@ const SliceOfLife = [
         youtube: 'https://youtu.be/ofXigq9aIpo?si=R6lvGLW6nQ_8a3AJ',
         description: "",
         url: 'https://myanimelist.net/anime/50265/Spy_x_Family?q=spy%20x%20fami&cat=anime',
+        gem: 'gem',
     },
     
 ]

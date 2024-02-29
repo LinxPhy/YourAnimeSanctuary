@@ -40,6 +40,7 @@ const Mystery = [
         youtube: 'https://www.youtube.com/watch?v=g8tTxuO1oIY&ab_channel=AniplexUSA',
         description: 'Breathtaking gem of an anime that will grip you from the very first episode and never let go. The story follows Satoru, a man with the mysterious ability to go back in time and prevent tragedies from happening. As he races against the clock to save his friends and solve a series of murders, the tension is palpable, keeping you on the edge of your seat with every twist and turn. The emotional depth of the characters, combined with the suspenseful plot, creates a truly immersive experience that will leave you constantly guessing. With its stunning animation and haunting soundtrack. Dive into this enigmatic world, and let yourself be swept away by its brilliance. This anime is a masterpiece',
         url: 'https://myanimelist.net/anime/31043/Boku_dake_ga_Inai_Machi',
+        gem: 'gem',
     },
 
     {
