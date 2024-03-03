@@ -8,7 +8,6 @@ import Item4 from './images/no_game.jpg'
 import Item5 from './images/tonikaku.jpg'
 import Item6 from './images/spy_x_family.jpg'
 import AI from './images/AI.jpg'
-import AnimeNews from "./components/animeNews";
 import LoadImage from "./components/animeNews";
 import Link from "next/link";
 
@@ -22,10 +21,6 @@ export default async function Home() {
 
       <section className="hero">
         <Image src={HeroImage} alt='Hero Image'></Image>
-
-        {/* <div className='image-cover'>
-          Top 10 Underrated Anime
-        </div> */}
 
         <div className='hero-description'>
           <h1>Your Anime Sanctuary</h1>
