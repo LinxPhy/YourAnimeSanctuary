@@ -45,11 +45,16 @@ button {
     cursor: pointer;
 }
 
+.image-section img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .title-section{
     padding: 20px 0px;
     text-align: center;
 }
-
 
 .container{
     max-width: 1100px;
@@ -85,6 +90,23 @@ header ul {
     font-family: 'Bungee', cursive;
 }
 
+@media screen and (max-width: 600px) {
+
+
+    nav ul a {
+        flex: 0 0 33.333333%;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .hero-description p{
+        text-align: justify;
+    }
+
+}
+
 nav{
     background-color: black;
 }
@@ -93,12 +115,14 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     color: white;
     text-align: center;
     gap: 20px;
+    width: 100%;
 }
 
-nav ul li a {    
+nav ul  a {    
     color: white;
 }
 

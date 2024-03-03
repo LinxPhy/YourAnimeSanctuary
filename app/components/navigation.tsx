@@ -1,16 +1,42 @@
 import Link from "next/link"
 
-export function Navigation(){
+export function Navigation() {
 
     return (
         <nav>
             <ul>
-                <li><Link href={'/action'}>Action</Link></li>
-                <li><Link href={'/mystery'}>Mystery</Link></li>
-                <li><Link href={'/romance'}>Romance</Link></li>
-                <li><Link href={'/classics'}>Classics</Link></li>
-                <li><Link href={'/slice_of_life'}>Slice of Life</Link></li>
-                <li><Link href={'/underrated'}>Underrated</Link></li>
+                <Link href={'/action'}>
+                    <li>
+                        Action
+                    </li>
+                </Link>
+                <Link href={'/mystery'}>
+                    <li>
+                        Mystery
+                    </li>
+                </Link>
+                <Link href={'/romance'}>
+                    <li>
+                        Romance
+                    </li>
+                </Link>
+
+                <Link href={'/classics'}>
+                    <li>
+                        Classics
+                    </li>
+                </Link>
+
+                <Link href={'/slice_of_life'}>
+                    <li>
+                        Slice of Life
+                    </li>
+                </Link>
+                <Link href={'/underrated'}>
+                    <li>
+                        Underrated
+                    </li>
+                </Link>
             </ul>
         </nav>
     )

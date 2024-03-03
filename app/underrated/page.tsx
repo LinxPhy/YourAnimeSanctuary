@@ -1,5 +1,7 @@
 import UnderratedPage from '@/app/files/underrated'
 import Anime from '../components/anime'
+import Image from 'next/image'
+import Spice from '@/app/images/spice_.jpg'
 
 export default function Underrated() {
 
@@ -10,13 +12,14 @@ export default function Underrated() {
                 <h1>15 Underrated / Hidden gems Anime you need to watch</h1>
             </div>
 
-            <div className='page-image-section'>
-
+            <div className='image-section'>
+                <Image src={Spice} alt="Image"></Image>
             </div>
 
             <div className='page-description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto mollitia obcaecati laudantium sunt inventore ab placeat totam perferendis sit animi debitis, reiciendis voluptas esse nesciunt architecto libero, fuga voluptatum! Blanditiis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis distinctio reiciendis omnis adipisci impedit illo nam sequi. Consectetur consequatur nam accusamus totam quod numquam eius, molestiae quos voluptas sequi similique.</p>
+                <p>Underrated anime are hidden gems that have not received any adequate recognition despite their quality. They are mostly overshadowed by more popular titles or overlooked due to their limited exposure </p>
+                <p>This list contains some of the best hidden gems, in no particular order, filled with somehow unknown anime, anime noone knows about or anime people tend to overlook. They are simply amazing anime, some as good as the most popular titles.</p>
+
             </div>
 
          

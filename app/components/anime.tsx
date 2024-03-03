@@ -15,6 +15,12 @@ export default async function Anime(props: any) {
 
     const data = props.data
 
+    function returnGenre(genre : any){
+        
+        let list = genre.join(', ')
+        return list
+    }
+
     return (
         <section className="anime-content">
 
@@ -31,10 +37,12 @@ export default async function Anime(props: any) {
                                 <ul>
                                     <li>Episodes - {anime.episodes}</li>
                                     <li>Seasons  - {anime.seasons}</li>
-                                    <li>Release Date - #</li>
-                                    <li>Genre - #</li>
+                                    {/* <li>Release Date - #</li> */}
+                                    <li>Genre - {returnGenre(anime.genre) as any} </li>
                                 </ul>
                             </div>
+
+                            
 
                             {anime.image ?
                                 <div className="anime-imagesection">
@@ -47,21 +55,21 @@ export default async function Anime(props: any) {
 
                             <div className="anime-icons">
                                 <Link href={anime.url}>
-                                    <Image src={MAL} width={'30'} height={'30'} alt="MAL"></Image>
+                                    <Image src={MAL} width={'40'} height={'40'} alt="MAL"></Image>
                                 </Link>
 
                                 
                                 { 
-                                    anime.cruncyroll ?  <Link href={anime.cruncyroll}> <Image src={Crunchyroll} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
-                                    anime.amazonPrime ?  <Link href={anime.amazonPrime}> <Image src={AmazonPrime} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link> :
-                                    anime.netflix ?  <Link href={anime.netflix}> <Image src={Netflix} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
-                                    anime.hulu ?  <Link href={anime.hulu}> <Image src={Hulu} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link> :
-                                    anime.hidive ? <Link href={anime.hidive}> <Image src={Hidive} width={'30'} height={'30'} alt="Crunchyroll"></Image> </Link>:
+                                    anime.cruncyroll ?  <Link href={anime.cruncyroll}> <Image src={Crunchyroll} width={'40'} height={'40'} alt="Crunchyroll"></Image> </Link>:
+                                    anime.amazonPrime ?  <Link href={anime.amazonPrime}> <Image src={AmazonPrime} width={'40'} height={'40'} alt="Crunchyroll"></Image> </Link> :
+                                    anime.netflix ?  <Link href={anime.netflix}> <Image src={Netflix} width={'40'} height={'40'} alt="Crunchyroll"></Image> </Link>:
+                                    anime.hulu ?  <Link href={anime.hulu}> <Image src={Hulu} width={'40'} height={'40'} alt="Crunchyroll"></Image> </Link> :
+                                    anime.hidive ? <Link href={anime.hidive}> <Image src={Hidive} width={'40'} height={'40'} alt="Crunchyroll"></Image> </Link>:
                                     <></>
                                 }
 
                                 <Link href={anime.youtube}>
-                                    <Image src={Youtube} width={'30'} height={'30'} alt="Youtube"></Image>
+                                    <Image src={Youtube} width={'40'} height={'40'} alt="Youtube"></Image>
                                 </Link>
                             </div>
 
@@ -82,13 +90,29 @@ export default async function Anime(props: any) {
                     </div>
 
                     <ul>
-                        <li>10 Underrated Anime you need to watch</li>
-                        <li>10 Action Anime you need to watch</li>
-                        <li>10 Mystery Anime you need to watch</li>
-                        <li>10 Romance Anime you need to watch</li>
-                        <li>10 Classics Anime you need to watch</li>
-                        <li>10 Sports Anime you need to watch</li>
-                        <li>10 Slice of Life Anime you need to watch</li>
+                        <Link href={'/underrated'}>
+                            <li>15 Underrated / Hidden Gems Anime you need to watch</li>
+                        </Link>
+                        
+                        <Link href={'/action'}>
+                            <li>10 Action Anime you need to watch</li>
+                        </Link>
+
+                        <Link href={'/mystery'}>
+                            <li>10 Mystery Anime you need to watch</li>
+                        </Link>
+                        
+                        <Link href={'/romance'}>
+                            <li>10 Romance Anime you need to watch</li>
+                        </Link>
+
+                        <Link href={'/classics'}>
+                            <li>10 Classics Anime you need to watch</li>
+                        </Link>
+
+                        <Link href={'/slice_of_life'}>
+                            <li>10 Slice of Life Anime you need to watch</li>
+                        </Link>
                     </ul>
 
                 </div>

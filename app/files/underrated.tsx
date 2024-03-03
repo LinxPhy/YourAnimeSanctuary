@@ -10,7 +10,7 @@ const Underrated = [
         type: 'TV',
         hulu: 'https://www.hulu.com/series/the-future-diary-0c43ee4a-8e87-4864-8496-7b215c2a3976',
         youtube: 'https://youtu.be/KfznTm8mJA4?si=5GEH2x06BlS2LNQC',
-        description: "",
+        description: "Mirai Nikki is a breathtaking rollercoaster of emotions that will grip you from the very first episode and never let go. The heart-pounding action, intricate plot twists, and deeply flawed yet compelling characters make this underrated gem a must-watch for any anime fan. Yuno Gasai's complexity as a character will leave you both terrified and fascinated, while the unpredictable nature of the survival game will have you at the edge of your seat, desperate to know what happens next. Please note - You can either really like this anime or really hate it, you have been warned.",
         url: 'https://myanimelist.net/anime/10620/Mirai_Nikki_TV?q=mirai%20nikki&cat=anime',
     },
 
@@ -24,7 +24,7 @@ const Underrated = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.com/Eminence-Shadow-Season-Part/dp/B0B6QNPB3L',
         youtube: 'https://www.youtube.com/watch?v=Ciy0kf5EE3E',
-        description: "",
+        description: "Eminence in Shadow is the perfect example of an overpowered protagonist showing himself as an extremely weak background character. This anime follows the thrilling journey of Cid Kagenou, a young boy who yearns to become the ultimate secret mastermind in a world where heroes and villains roam. With its unique take on the isekai genre, it astounds viewers with its well-paced storytelling and clever plot twists.",
         url: 'https://myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute',
     },
 
@@ -38,7 +38,7 @@ const Underrated = [
         type: 'TV',
         hidive: 'https://www.hidive.com/tv/beyond-the-boundary',
         youtube: 'https://youtu.be/HU5EeNd1iXM?si=P1Qg0giV5oxbFyTl',
-        description: "",
+        description: "Beyond the Boundary is an underrated anime with a unique blend of supernatural action, heartfelt drama, and a touch of romance. The series follows a group of spirit warriors tasked with protecting the world from dangerous creatures, including the enigmatic and powerful half-human, half-youmu protagonist, Mirai Kuriyama. The show features stunning animation, compelling character development, and a captivating story that keeps viewers on the edge of their seats.",
         url: 'https://myanimelist.net/anime/18153/Kyoukai_no_Kanata?q=beyond%20the%20&cat=anime',
     },
 
@@ -52,7 +52,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GVDHX8QNW/chainsaw-man',
         youtube: 'https://youtu.be/l96zmDlWCBk?si=e5gdh6cGCYYo7juM',
-        description: "",
+        description: "Chainsaw Man is a dynamic and gritty anime that follows Denji, a devil hunter who forms a contract with a devil named Pochita, who can transform into chainsaw-like weapons. The series navigates dark themes with a mix of intense action, humor, and unexpected plot twists. Chainsaw Man's unique premise, complex characters, and unexpected narrative developments make it a must-watch for fans of darker, more mature anime.",
         url: 'https://myanimelist.net/anime/44511/Chainsaw_Man?q=chainsaw%20man&cat=anime',
     },
 
@@ -66,7 +66,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GJ0H7Q87Z/talentless-nana',
         youtube: 'https://youtu.be/8MWnUBPslcs?si=sz6WLSqXASmRutFq',
-        description: "",
+        description: "Talentless Nana follows a group of students with supernatural powers on a secluded island, where secrets and deception run rampant. Is that it? Is there more to it? Well of course! Day after day students start to go missing... What could be the reason? The thrilling plot twists and psychological battles keep you on the edge of your seat, making it a must-watch for any mystery lover. This anime is not what you think and it greatly deserves more recognition for the story's creativity. ",
         url: 'https://myanimelist.net/anime/41619/Munou_na_Nana?q=talentless&cat=anime',
     },
 
@@ -80,7 +80,7 @@ const Underrated = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.co.uk/gp/video/detail/B0CHL4D1B2/ref=atv_dp_season_select_s1',
         youtube: 'https://youtu.be/gMPPrw_hVfM?si=AProYK1Kzt-HqwR9',
-        description: "",
+        description: "Spice and Wolf takes us on a journey with a traveling merchant and a wolf deity, exploring economics, folklore, and the deepening bond between the unlikely pair. The enchanting world-building and thoughtful dialogue make it a standout in the fantasy genre, leaving a lasting impression on viewers.",
         url: 'https://myanimelist.net/anime/2966/Ookami_to_Koushinryou?q=spice%20and%20wolf&cat=anime',
     },
 
@@ -94,7 +94,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GJ0H7QX0Z/tomodachi-game',
         youtube: 'https://youtu.be/y-hPQ0-orMM?si=DzrymiieswsOy9zN',
-        description: "",
+        description: "This  anime follows a group of friends who are forced to participate in deadly games by a mysterious figure known as King. As the stakes rise and tensions flare, trust is shattered, loyalties are tested, and betrayal lurks around every corner. The heart-pounding suspense, intricate plot twists, and complex character dynamics make Tomodachi Game a thrilling watch from start to finish. It delves into the darkest depths of human nature, exploring themes of friendship, sacrifice, and the lengths people will go to in order to survive. Through its intense storytelling and gripping narrative, Tomodachi Game challenges viewers to question their own morals and values. It's a raw, unfiltered look at the ugliness and beauty of human relationships, leaving a lasting impact long after the final credits roll. If you're looking for an anime that will keep you on the edge of your seat and make you question everything you thought you knew, Tomodachi Game is a must-watch. Don't let this hidden gem pass you by.",
         url: 'https://myanimelist.net/anime/50273/Tomodachi_Game?q=Tomodachi&cat=anime',
     },
 
@@ -108,7 +108,7 @@ const Underrated = [
         type: 'TV',
         hulu: 'https://www.hulu.com/series/akame-ga-kill-b6141bb5-8cd4-47dd-941c-711898814242',
         youtube: 'https://youtu.be/sCGWxQuSoDU?si=O05C50mTLpilvrQ_',
-        description: "",
+        description: "Akame ga Kill is a hidden gem of the anime world, a thrilling rollercoaster of emotions that will leave you captivated and gasping for more. The story follows Tatsumi, a young fighter who joins an assassin group known as Night Raid to overthrow a corrupt empire. Filled with action-packed battles, heart-wrenching moments, and unexpected plot twists, this anime will keep you on the edge of your seat from start to finish. But what truly sets Akame ga Kill apart is its unforgettable characters - each with their own unique backstory and motivations, making you root for them with all your heart. From the fierce and badass Akame to the lovable and quirky Mine, you'll find yourself deeply invested in their every triumph and tragedy.  So if you're craving an anime that will take you on a wild and unforgettable journey, look no further than Akame ga Kill. Trust me, once you start watching, you won't be able to stop. It's a masterpiece that deserves all the love and recognition in the world.",
         url: 'https://myanimelist.net/anime/22199/Akame_ga_Kill?q=akame%20ga%20&cat=anime',
         gem: 'gem',
     },
@@ -123,7 +123,7 @@ const Underrated = [
         type: 'TV',
         netflix: 'https://www.netflix.com/gb/title/80175351',
         youtube: 'https://youtu.be/cTlHQiRNVl0?si=4ilRxPlM5oxMe7By',
-        description: "",
+        description: "Kakegurui is a hidden gem in the world of anime, a thrilling and captivating series that will leave you on the edge of your seat with every episode. The story follows Yumeko Jabami, a seemingly innocent transfer student who enters the prestigious Hyakkaou Private Academy, only to reveal herself as a fearless and cunning gambler who thrives on the thrill of high-stakes gambling. The intense mind games, the exhilarating risks, and the complex characters make Kakegurui an amazing anime. Watch as Yumeko manipulates her opponents, challenges the corrupt school council, and unravels the dark secrets hiding beneath the surface of the academy. ",
         url: 'https://myanimelist.net/anime/34933/Kakegurui?q=kakegu&cat=anime',
     },
 
@@ -138,7 +138,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GZJH3D0N5/guilty-crown',
         youtube: 'https://youtu.be/JToS6gmWzgw?si=GolSxqrlSw0XAU4M',
-        description: "",
+        description: "The series is a rollercoaster of emotions that follows the journey of protagonist Shu Ouma as he becomes entangled in a war-torn world where he gains the power to wield other people's abilities through a mysterious girl named Inori Yuzuriha.  With this newfound power, Shu becomes involved in a war between the government organization GHQ and a resistance group called the Undertakers. As he navigates the complexities of this conflict, Shu must make difficult decisions and confront his own inner struggles while trying to protect his friends and loved ones. The series explores themes of power, responsibility, and sacrifice in a dystopian future setting.",
         url: 'https://myanimelist.net/anime/10793/Guilty_Crown?q=guilty%20crown&cat=anime',
     },
 
@@ -152,7 +152,7 @@ const Underrated = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.co.uk/gp/video/detail/amzn1.dv.gti.34b0b857-72f0-47af-900d-b57200b2ed00?autoplay=0&ref_=atv_cf_strg_wb',
         youtube: 'https://youtu.be/x5MGW5-iRY4?si=kdFI1Q37GbMU9UxZ',
-        description: "",
+        description: "Twin Star Exorcists follows two powerful exorcists, Benio and Rokuro, as they are fated to work together to defeat powerful demons known as Kegare. Despite their initial reluctance, the duo must learn to cooperate and grow stronger together to save the world from impending disaster. The anime seamlessly blends action, comedy, and drama, with well-developed characters and intense battles that keep viewers on the edge of their seats. Twin Star Exorcists is a thrilling and engaging series that deserves more recognition for its unique storyline, dynamic character dynamics, and stunning animation.",
         url: 'https://myanimelist.net/anime/32105/Sousei_no_Onmyouji?q=twin%20star&cat=anime',
     },
 
@@ -166,7 +166,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation',
         youtube: 'https://youtu.be/k5VxfJpzy1Q?si=Kf79V932NcCeSUNo',
-        description: "",
+        description: "Moshoku Tensei follows the story of a reincarnated man who uses his newfound life in a fantasy world to become the best version of himself. Often considered underrated, the anime is praised for its complex characters, intricate world-building, and beautiful animation. It delves into themes of redemption, growth, and second chances, making it a compelling watch for fans of isekai and fantasy genres.",
         url: 'https://myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu?q=mushok&cat=anime',
     },
 
@@ -180,13 +180,13 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G9VHN9P7W/gleipnir',
         youtube: 'https://youtu.be/QzQ1sDFUJiA?si=jWn6gUg61x_eM4xH',
-        description: "",
+        description: "A dark and twisted anime that revolves around a high school student who can transform into a powerful monster by slipping into a mysterious suit. This underrated gem is known for its unique premise, intense action scenes, and morally grey characters. It explores themes of identity, power, and the consequences of one's actions, creating a suspenseful and unpredictable narrative that keeps viewers on the edge of their seats. If you're looking for a thrilling and thought-provoking watch, Gleipnir is definitely worth checking out.",
         url: 'https://myanimelist.net/anime/39463/Gleipnir?q=gleip&cat=anime',
     },
 
     {
         id: 14,
-        title: 'Kono oto tomare',
+        title: 'Kono Oto Tomare',
         image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fkono_oto_tomare.jpg?alt=media&token=389b4845-bc2b-418f-8ef3-5d15efc291c2',
         genre: ['Drama', 'Music'],
         episodes: 13,
@@ -194,7 +194,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GRJ05PZ0Y/kono-oto-tomare-sounds-of-life',
         youtube: 'https://youtu.be/4-pKulFDkpM?si=5oydxHGZT-DQoPHN',
-        description: "",
+        description: "Kono Oto Tomare is a heartwarming music anime that follows the story of a high school koto  club on the brink of disbandment. Through passion, dedication, and the power of music, the club members bond and grow together, overcoming their personal struggles and striving to achieve success in their musical pursuits. The anime beautifully portrays themes of friendship, teamwork, and perseverance, making it a must-watch for fans of music and coming-of-age stories.",
         url: 'https://myanimelist.net/anime/38080/Kono_Oto_Tomare',
     },
 
@@ -208,7 +208,7 @@ const Underrated = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GY8VEQ95Y/darling-in-the-franxx',
         youtube: 'https://youtu.be/xiNeXCUosSg?si=FCCbRrNC3x7RbZox',
-        description: "",
+        description: "Darling in the Franxx is a mecha anime set in a dystopian world where children are raised to pilot giant robots known as Franxx to protect humanity from mysterious monsters. The series explores complex themes of identity, love, and existentialism, as the young pilots navigate their feelings and relationships against the backdrop of a post-apocalyptic society. With its unique blend of action, romance, and sci-fi elements, this anime offers a thrilling and thought-provoking watch for fans of mecha anime.",
         url: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX?q=darling%20&cat=anime',
     },
 ]

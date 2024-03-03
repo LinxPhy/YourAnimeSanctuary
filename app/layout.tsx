@@ -7,7 +7,7 @@ import { Footer } from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Anime to watch",
-  description: "From underrated to mainstream, a list of animes that you can't miss out!",
+  description: "From underrated gems to mainstream wonders, a list of anime that you can't miss out!",
 };
 
 export default function RootLayout({

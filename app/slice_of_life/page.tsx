@@ -1,5 +1,7 @@
 import Slice_of_life from '@/app/files/slice_of_life'
 import Anime from '../components/anime'
+import Image from 'next/image'
+import Hana from '@/app/images/ano_hana_.jpg'
 
 export default function SliceOfLife() {
 
@@ -10,13 +12,12 @@ export default function SliceOfLife() {
                 <h1>10 Slice of Life Anime you need to watch</h1>
             </div>
 
-            <div className='page-image-section'>
-
+            <div className='image-section'>
+                <Image src={Hana} alt="Image"></Image>
             </div>
 
             <div className='page-description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto mollitia obcaecati laudantium sunt inventore ab placeat totam perferendis sit animi debitis, reiciendis voluptas esse nesciunt architecto libero, fuga voluptatum! Blanditiis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis distinctio reiciendis omnis adipisci impedit illo nam sequi. Consectetur consequatur nam accusamus totam quod numquam eius, molestiae quos voluptas sequi similique.</p>
+                <p>Slice of life anime, which focuses on commonplace events and routine activities, provides an insight into the relationships and everyday experiences of its characters. These shows tackle friendship, family, and human development with a realistic and frequently reflective style. Slice of life anime, which shuns fanciful aspects in favour of the straightforward beauty of daily life, connects with viewers through its sympathetic characters and moving narratives.</p>
             </div>
 
          

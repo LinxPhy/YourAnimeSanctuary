@@ -1,7 +1,7 @@
 import getAnimeNews from "./components/getAnimeNews";
 import Image from 'next/image';
 import HeroImage from './images/hero_image.jpeg'
-import Item1 from './images/emminence_in_shadow.jpg'
+import Item1 from './images/darwin.jpg'
 import Item2 from './images/erased.png'
 import Item3 from './images/dragon_ball.webp'
 import Item4 from './images/no_game.jpg'
@@ -30,9 +30,17 @@ export default async function Home() {
         <div className='hero-description'>
           <h1>Your Anime Sanctuary</h1>
           <p>
-            Are you looking for animes to watch or interested in some of the best underrated animes? Then look no further...
-            <br></br>
-            We have componsed multiple top 10 lists on animes you must watch on each category.
+            Are you looking for an anime to watch or interested in viewing our collection of some of the most underrated animes? Then look no further...
+          </p>
+          <br></br>
+          <p>
+            We have componsed multiple top lists on animes you must watch on each category. From Action to Mystery to Slice of Life, we pray to have
+            created lists not only for new anime watchers but also for experienced watchers looking for missed hidden gems.
+          </p>
+          <br></br>
+          <p>
+            The lists have been created by the owner, with an hidden gem in each category. If you are unsure what anime to watch, you can't make a mistake with the anime highlighted.
+            Hope you enjoy our lists.
           </p>
         </div>
       </section>
@@ -78,8 +86,8 @@ export default async function Home() {
               <Image src={Item4} alt='Image-Image'></Image>
             </Link>
             <div className='item-description'>
-              <h3>Underrated</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi optio pariatur sint? Totam incidunt repudiandae natus quas dolorem, quia reiciendis iste vero vitae corrupti quos veritatis, libero, soluta quasi nihil!</p>
+              <h3>Underrated / Hidden Gems</h3>
+              <p>Are you looking for amazing anime that you might have missed? Check out our underrated / hidden gems collection</p>
             </div>
           </div>
           <div className='item5'>
@@ -97,7 +105,7 @@ export default async function Home() {
             </Link>
             <div className='item-description'>
               <h3>Slice of Life</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati debitis possimus a! Vero, quam esse aliquid praesentium laboriosam itaque hic earum ad vitae. Rem unde fugiat eveniet exercitationem, ducimus voluptates.</p>
+              <p>Interested in specific characters's daily life? Fill yourself in with our slice of life collection of anime containing characters making friends or finding love or overcoming obstacles  </p>
             </div>
           </div>
         </div>
@@ -115,7 +123,9 @@ export default async function Home() {
           {data.map((anime: any, key: number) => {
             return (
               <article className="article-news" key={key}>
-                <LoadImage data={anime.images.jpg.image_url} />
+                <Link href={anime.forum_url}>
+                  <LoadImage data={anime.images.jpg.image_url} />
+                </Link>
                 <div className="article-main">
                   <h3>{anime.title}</h3>
                   <div className="article-text">

@@ -1,5 +1,7 @@
 import RomancePage from '@/app/files/romance'
 import Anime from '../components/anime'
+import Image from 'next/image'
+import Tonikaku from '@/app/images/tonikaku_.jpg'
 
 export default function Romance() {
 
@@ -10,13 +12,13 @@ export default function Romance() {
                 <h1>10 Romance Anime you need to watch</h1>
             </div>
 
-            <div className='page-image-section'>
-
+            <div className='image-section'>
+                <Image src={Tonikaku} alt="Image"></Image>
             </div>
 
             <div className='page-description'>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto mollitia obcaecati laudantium sunt inventore ab placeat totam perferendis sit animi debitis, reiciendis voluptas esse nesciunt architecto libero, fuga voluptatum! Blanditiis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis distinctio reiciendis omnis adipisci impedit illo nam sequi. Consectetur consequatur nam accusamus totam quod numquam eius, molestiae quos voluptas sequi similique.</p>
+                <p>From tender moments to heart-wrenching dilemmas, each episode explores themes of affection, devotion, and self-discovery. With captivating storytelling and endearing characters, romance anime captivates viewers with its emotional depth, portraying the beauty and complexity of human emotions in the pursuit of love and happiness.</p>
+                <p>While acknowledging potential controversy in our selections, we prioritized featuring anime that our team has personally watched and experienced. This approach ensures a curated list based on firsthand knowledge rather than solely relying on potentially highly rated but unwatched romance anime.</p>
             </div>
 
          

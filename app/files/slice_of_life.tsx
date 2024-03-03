@@ -10,8 +10,8 @@ const SliceOfLife = [
         seasons: 1,
         type: 'TV',
         hulu: 'https://www.hulu.com/series/no-game-no-life-6e4dd558-5c67-465f-be02-abc5226900bb',
-        youtube: '',
-        description: "",
+        youtube: 'https://www.youtube.com/watch?v=ETQUp-Omp-A',
+        description: "Filled with vibrant colors, quirky characters, and mind-bending games, this anime will have you on the edge of your seat with every episode. The dynamic between the siblings Sora and Shiro is incredibly heartwarming, and their journey through the world of Disboard is nothing short of awe-inspiring. The clever strategies, intense battles, and unexpected plot twists will keep you hooked from start to finish. And let's not forget the stunning animation and breathtaking soundtrack that enhance the overall viewing experience. As a fan of this genre, you will be completely entranced by the fantastical world-building and the way the characters adapt and grow throughout the series. Trust me, once you start watching No Game No Life, you won't be able to stop. It's a captivating and unforgettable anime that will stay with you long after the final episode.",
         url: 'https://myanimelist.net/anime/19815/No_Game_No_Life?q=no%20game%20no%20life&cat=anime',
     },
 
@@ -25,7 +25,7 @@ const SliceOfLife = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.co.uk/gp/video/detail/amzn1.dv.gti.aeb9fefb-f173-59c5-4802-b8ccc62599b5?autoplay=0&ref_=atv_cf_strg_wb',
         youtube: 'https://youtu.be/cFZckSHAddI?si=_Eu08Ev1H7BoGfw2',
-        description: "",
+        description: "Prepare yourself for a rollercoaster of emotions with Kiznaiver! This unique Slice of Life anime will captivate your heart with its deep exploration of human connections and empathy. The characters' struggles and growth as they are linked through the Kizuna System will tug at your heartstrings. The beautiful animation and intense soundtrack will immerse you in this poignant tale of friendship and pain. Kiznaiver will make you laugh, cry, and ultimately leave you feeling more connected to those around you. Get ready for a truly unforgettable journey of self-discovery and bonds that transcend physical and emotional barriers.",
         url: 'https://myanimelist.net/anime/31798/Kiznaiver?q=kiznai&cat=anime',
     },
 
@@ -39,7 +39,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G6X0QPK8Y/tsukigakirei',
         youtube: 'https://www.youtube.com/watch?v=-3_hwxNg4b8',
-        description: "",
+        description: "Step into the heartwarming world of Tsuki Ga Kirei, where first love blossoms like a delicate cherry blossom in spring. This Slice of Life anime beautifully captures the innocence and beauty of teenage romance, from the awkward moments to the heart-fluttering confessions. You will find yourself rooting for Kotarou and Akane as they navigate the challenges of young love and societal expectations. The stunning visuals, realistic portrayal of relationships, and bittersweet soundtrack will envelop you in a warm embrace of nostalgia and longing. Tsuki Ga Kirei will make you believe in the purity of love and leave you with a sense of hope and warmth. Get ready to experience a love story that will stay with you long after the final episode.",
         url: 'https://myanimelist.net/anime/34822/Tsuki_ga_Kirei?q=tsuki%20ga%20kire&cat=anime',
     },
 
@@ -53,7 +53,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite',
         youtube: 'https://www.youtube.com/watch?v=F_-y2LkkUjg',
-        description: "",
+        description: "The intense competition, complex characters, and unpredictable plot twists will keep you on the edge of your seat episode after episode. The way it delves into the dark and twisted nature of human behavior, while also exploring themes of friendship, betrayal, and societal expectations.  It's a gripping and thought-provoking journey that will leave you yearning for more, and it's a must-watch for any anime fan craving a mix of drama, suspense, and excitement.",
         url: 'https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e?q=classroom&cat=anime',
     },
 
@@ -67,7 +67,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GR19X2G26/anohana-the-flower-we-saw-that-day',
         youtube: 'https://youtu.be/x8fvwC5xVGg?si=TVZGbefpoOMJ3iS0',
-        description: "",
+        description: "The story of a group of childhood friends reuniting to fulfill a long-lost wish will tug at your heartstrings and leave you in tears. The beautiful animation and deep character development will make you feel like you're a part of their journey, experiencing all their joys and sorrows alongside them.",
         url: 'https://myanimelist.net/anime/9989/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai?q=ano%20hana&cat=anime',
     },
 
@@ -81,7 +81,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G6MGNDGW6/welcome-to-the-n-h-k',
         youtube: 'https://youtu.be/QYLsjJ8RThQ?si=5NqKpZNhBwlXEnz6',
-        description: "",
+        description: "Welcome to the NHK is a raw and honest look at the struggles of a socially isolated young man grappling with depression and anxiety. The character-driven narrative delves into his inner turmoil and personal growth, offering a poignant and relatable portrayal of mental health issues. The series expertly balances dark humor with moments of genuine emotion, creating a thought-provoking and captivating viewing experience that will stay with you long after it's ended.",
         url: 'https://myanimelist.net/anime/1210/NHK_ni_Youkoso?q=welcome%20to%20the%20&cat=anime',
     },
 
@@ -95,13 +95,13 @@ const SliceOfLife = [
         type: 'TV',
         amazonPrime: 'https://www.amazon.co.uk/gp/video/detail/amzn1.dv.gti.f4b20f8f-3896-ab0c-4390-98052fe89b34?autoplay=0&ref_=atv_cf_strg_wb',
         youtube: 'https://youtu.be/Uy90rTP9mLs?si=WkIEHwkinBYyBe7R',
-        description: "",
+        description: "Love is Hard for Otaku is an absolute gem of a slice of life anime that will tug at your heartstrings and make you fall in love with its relatable characters. The show perfectly captures the struggles and joys of being an adult otaku navigating the complexities of love and relationships. With its charming humor, endearing romance, and genuine portrayal of the otaku subculture, Wotakoi is a delightful and heartwarming watch that will leave you feeling warm and fuzzy inside.",
         url: 'https://myanimelist.net/anime/35968/Wotaku_ni_Koi_wa_Muzukashii?q=wotaku&cat=anime',
     },
 
     {
         id: 8,
-        title: 'GTO',
+        title: 'GTO (Great Teacher Onizuka)',
         image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2FGTO.jpg?alt=media&token=cf24949a-cbbf-4fa7-853f-01a8e0d55888',
         genre: ['Slice of life', 'Comedy'],
         episodes: 43,
@@ -109,7 +109,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GRQ4QG4GY/gto---the-animation',
         youtube: 'https://www.youtube.com/watch?v=HS2n3-e_0PE',
-        description: "",
+        description: "Follow the unforgettable journey of Eikichi Onizuka, a former delinquent turned teacher, as he sets out to change the lives of his students and prove that anyone can overcome their past. With its powerful messages of redemption, friendship, and the importance of second chances, GTO will have you laughing, crying, and cheering for Onizuka every step of the way. It's a timeless masterpiece that will leave a lasting impact on your soul.",
         url: 'https://myanimelist.net/anime/245/Great_Teacher_Onizuka?q=GTO&cat=anime',
     },
 
@@ -123,7 +123,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/GYGG99WDY/charlotte',
         youtube: 'https://youtu.be/6AgEzww-a0w?si=ulFzUAIEXNjPQTmv',
-        description: "",
+        description: "Charlotte follows the journey of Yuu Otosaka, a teenage boy with the ability to possess others for a short period. The anime beautifully blends themes of friendship, love, and sacrifice as Yuu navigates a world filled with supernatural abilities and the consequences they bring.",
         url: 'https://myanimelist.net/anime/28999/Charlotte?q=charlotte&cat=anime',
     },
 
@@ -137,7 +137,7 @@ const SliceOfLife = [
         type: 'TV',
         cruncyroll: 'https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family',
         youtube: 'https://youtu.be/ofXigq9aIpo?si=R6lvGLW6nQ_8a3AJ',
-        description: "",
+        description: "Spy X Family is a thrilling and captivating slice of life anime that follows the unconventional family dynamics of a spy, an assassin, and a telepathic girl brought together under the guise of a normal family. The anime expertly weaves together elements of action, comedy, and heartwarming familial bonds, creating a truly unique and engaging storyline that keeps viewers on the edge of their seats. This anime will make you laugh, and keep you coming back for more with their rich storytelling and lovable characters. ",
         url: 'https://myanimelist.net/anime/50265/Spy_x_Family?q=spy%20x%20fami&cat=anime',
         gem: 'gem',
     },
