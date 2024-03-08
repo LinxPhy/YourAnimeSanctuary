@@ -25,16 +25,16 @@ export default async function Home() {
         <div className='hero-description'>
           <h1>Your Anime Sanctuary</h1>
           <p>
-            Are you looking for an anime to watch or interested in viewing our collection of some of the most underrated animes? Then look no further...
+            Are you looking for an anime to watch or interested in viewing our collection of some of the most underrated titles? Then look no further...
           </p>
           <br></br>
           <p>
-            We have componsed multiple top lists on animes you must watch on each category. From Action to Mystery to Slice of Life, we pray to have
+            We have componsed multiple top lists on anime in no particular order you must watch on each category. From Action to Mystery to Slice of Life, we pray to have
             created lists not only for new anime watchers but also for experienced watchers looking for missed hidden gems.
           </p>
           <br></br>
           <p>
-            The lists have been created by the owner, with an hidden gem in each category. If you are unsure what anime to watch, you can't make a mistake with the anime highlighted.
+            The lists have been created by the owner, <b>based on titles he has watched</b>, with an hidden gem in each category. If you are unsure what anime to watch, you can't make a mistake with the anime highlighted.
             Hope you enjoy our lists.
           </p>
         </div>

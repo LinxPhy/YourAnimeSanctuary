@@ -3,7 +3,7 @@ const Action = [
     {
         id: 1,
         title: 'Code Geass',
-        image: 'https://firebasestorage.googleapis.com/v0/b/animesanctuary-c56e6.appspot.com/o/action%2Fcode_geass.jpg?alt=media&token=9cb9f79b-fc01-414a-8352-8ec76f3b9bb8',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fcode_geass.jpg?alt=media&token=0cf01dd4-7a33-46ff-a462-efe44dadd0ae',
         genre: ['Action', 'Award Winning', 'Drama', 'Sci-Fi'],
         episodes: 25,
         seasons: 2,
@@ -18,7 +18,7 @@ const Action = [
     {
         id: 2,
         title: 'Attack on Titan',
-        image: 'https://firebasestorage.googleapis.com/v0/b/animesanctuary-c56e6.appspot.com/o/action%2Faot.jpg?alt=media&token=3e9bafaa-36ce-4026-9047-3aa3a84786d0',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Faot.jpg?alt=media&token=f0615592-66be-432d-9808-c8437c75ee4b',
         genre: ['Action', 'Award Winning', 'Drama', 'Suspense'],
         episodes: 25,
         seasons: 4,
@@ -32,7 +32,7 @@ const Action = [
     {
         id: 3,
         title: "Darwin's game",
-        image: 'https://firebasestorage.googleapis.com/v0/b/animesanctuary-c56e6.appspot.com/o/action%2Fdarwin.jpg?alt=media&token=e609158d-c3fe-4b90-8476-96e9c52f794c',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fdarwin.jpg?alt=media&token=dbb3aedf-b7b0-4fca-9637-872c847de5b0',
         genre: ['Action', 'Sci-Fi', 'Super Power', 'Survival'],
         episodes: 11,
         seasons: 1,
@@ -46,7 +46,7 @@ const Action = [
     {
         id: 4,
         title: "Kabaneri of the iron fortress",
-        image: 'https://firebasestorage.googleapis.com/v0/b/animesanctuary-c56e6.appspot.com/o/action%2Fkabaneri.jpg?alt=media&token=8cbd1f0e-df6d-41af-bd45-0f4e715b0f42',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fkabaneri.jpg?alt=media&token=89316b0e-f5ee-451a-bb1d-0c15ff196ca2',
         genre: ['Action', 'Mystery', 'Suspence'],
         episodes: 12,
         seasons: 1,
@@ -61,7 +61,7 @@ const Action = [
     {
         id: 5,
         title: "Bananafish",
-        image: 'https://firebasestorage.googleapis.com/v0/b/animesanctuary-c56e6.appspot.com/o/action%2Fbananafish.jpg?alt=media&token=c770c60d-652e-4d9f-85d9-9d8ad9c9fa8b',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fbananafish.jpg?alt=media&token=8c9da15f-b742-4994-9807-2d9cb4a8f836',
         genre: ['Action', 'Adventure', 'Drama', 'Suspence'],
         episodes: 24,
         seasons: 1,

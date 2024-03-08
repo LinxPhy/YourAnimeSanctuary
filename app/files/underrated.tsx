@@ -44,16 +44,16 @@ const Underrated = [
 
     {
         id: 4,
-        title: 'Chainsaw man',
-        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fchainsaw_man.jpg?alt=media&token=85c27fbd-cb28-4102-81e9-8229ff6f8c2b',
-        genre: ['Action', 'Fantasy'],
+        title: 'Kokkoku',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fkokkoku.jpg?alt=media&token=5b4b308c-7d35-4212-bb72-b3f3da3555ca',
+        genre: ['Drama', 'Mystery', 'Supernatural'],
         episodes: 12,
         seasons: 1,
         type: 'TV',
-        cruncyroll: 'https://www.crunchyroll.com/series/GVDHX8QNW/chainsaw-man',
-        youtube: 'https://youtu.be/l96zmDlWCBk?si=e5gdh6cGCYYo7juM',
-        description: "Chainsaw Man is a dynamic and gritty anime that follows Denji, a devil hunter who forms a contract with a devil named Pochita, who can transform into chainsaw-like weapons. The series navigates dark themes with a mix of intense action, humor, and unexpected plot twists. Chainsaw Man's unique premise, complex characters, and unexpected narrative developments make it a must-watch for fans of darker, more mature anime.",
-        url: 'https://myanimelist.net/anime/44511/Chainsaw_Man?q=chainsaw%20man&cat=anime',
+        amazonPrime: 'https://www.amazon.co.uk/gp/video/detail/amzn1.dv.gti.72b12a87-0b09-1673-2b63-18a27d55835f?autoplay=0&ref_=atv_cf_strg_wb',
+        youtube: 'https://www.youtube.com/watch?v=HwoBxIOM3KQ',
+        description: "Kokkoku is an electrifying anime that delves into the mysterious realm of stopped time, where the exhilarating journey of the Yukawa family unfolds. With gripping intensity, it navigates themes of family bonds, sacrifice, and redemption amidst a backdrop of supernatural chaos. As the characters confront their deepest fears and insecurities, viewers are taken on an emotional rollercoaster, experiencing the highs of hope and the lows of despair alongside them. Through stunning animation and a hauntingly beautiful soundtrack, the anime immerses audiences in a world where every second counts, igniting a passionate connection that lingers long after the screen fades to black. It's an unforgettable tale of resilience and love, leaving hearts racing and minds yearning for more.",
+        url: 'https://myanimelist.net/anime/36548/Kokkoku?q=kokkoku&cat=anime',
     },
 
     {
@@ -158,16 +158,16 @@ const Underrated = [
 
     {
         id: 12,
-        title: 'Mushoku Tensei',
-        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fmoshoku_tensei.jpg?alt=media&token=efb435ce-56a3-403a-a8d9-9c79247fbc15',
-        genre: ['Adventure', 'Drama', 'Fantasy'],
-        episodes: 11,
-        seasons: 3,
+        title: 'Gakusen Toshi Asterisk',
+        image: 'https://firebasestorage.googleapis.com/v0/b/anime-sanctuary-bb873.appspot.com/o/images%2Fgakusen.jpg?alt=media&token=61e07208-afdf-4e00-87b0-67fef1f579b1',
+        genre: ['Action', 'Romance', 'Fantasy', 'Sci-Fi'],
+        episodes: 12,
+        seasons: 2,
         type: 'TV',
-        cruncyroll: 'https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation',
-        youtube: 'https://youtu.be/k5VxfJpzy1Q?si=Kf79V932NcCeSUNo',
-        description: "Moshoku Tensei follows the story of a reincarnated man who uses his newfound life in a fantasy world to become the best version of himself. Often considered underrated, the anime is praised for its complex characters, intricate world-building, and beautiful animation. It delves into themes of redemption, growth, and second chances, making it a compelling watch for fans of isekai and fantasy genres.",
-        url: 'https://myanimelist.net/anime/39535/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu?q=mushok&cat=anime',
+        cruncyroll: 'https://www.crunchyroll.com/series/GY8VXQX8Y/the-asterisk-war',
+        youtube: 'https://www.youtube.com/watch?v=oiLnJI7cTbk',
+        description: "Gakusen Toshi Asterisk is a breathtaking anime that thrusts viewers into the exhilarating world of futuristic battles and intense rivalries. With a fiery passion that burns brighter than the stars, it follows the journey of Ayato Amagiri as he enters the prestigious Seidoukan Academy in search of answers about his sister's disappearance. Alongside a captivating ensemble of characters, Ayato navigates dangerous tournaments and political intrigues, fueled by determination and a yearning for justice. With electrifying action sequences and heart-wrenching moments of triumph and defeat, The anime ignites a flame of emotion within viewers, immersing them in a world where every duel holds the promise of glory or despair. It's a spellbinding tale of courage, friendship, and the pursuit of one's destiny, leaving audiences on the edge of their seats with each thrilling episode.",
+        url: 'https://myanimelist.net/anime/30544/Gakusen_Toshi_Asterisk',
     },
 
     {
