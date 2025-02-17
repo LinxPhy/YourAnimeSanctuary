@@ -34,7 +34,7 @@ export default async function Home() {
           </p>
           <br></br>
           <p>
-            The lists have been created by the owner, <b>based on titles he has watched</b>, with an hidden gem in each category. If you are unsure what anime to watch, you can't make a mistake with the anime highlighted.
+            The lists have been created by the owner, <b>based on titles he has watched</b>, with an hidden gem in each category. If you are unsure what anime to watch, you can&apos;t make a mistake with the anime highlighted.
             Hope you enjoy our lists.
           </p>
         </div>
@@ -100,7 +100,7 @@ export default async function Home() {
             </Link>
             <div className='item-description'>
               <h3>Slice of Life</h3>
-              <p>Interested in specific characters's daily life? Fill yourself in with our slice of life collection of anime containing characters making friends or finding love or overcoming obstacles  </p>
+              <p>Interested in specific characters&apos;s daily life? Fill yourself in with our slice of life collection of anime containing characters making friends or finding love or overcoming obstacles  </p>
             </div>
           </div>
         </div>
